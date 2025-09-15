@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Classroom Helper | Math, ELA, and more!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <header class="top-bar">
+    <span class="site-title">Classroom Helper | Math, ELA, and more!</span>
+  </header>
+
+  <div class="layout">
+    <!-- Sponsors Sidebar -->
+    <aside class="sponsors">
+      <h2>⭐ Sponsors</h2>
+
+      <div class="sponsor-tier bronze">
+        <h3>🥉 Bronze</h3>
+        <ul>
+          <li>Bronze Sponsor 1</li>
+        </ul>
+      </div>
+
+      <div class="sponsor-tier silver">
+        <h3>🥈 Silver</h3>
+        <ul>
+          <li>Silver Sponsor 1</li>
+        </ul>
+      </div>
+
+      <div class="sponsor-tier gold">
+        <h3>🥇 Gold</h3>
+        <ul>
+          <li>NO CURRENT SPONSER</li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Content Area -->
+    <main class="content">
+      <!-- Login Section -->
+      <div class="container" id="loginBox">
+        <div class="card login-card">
+          <h2>🔐 Secure Access</h2>
+          <p class="subtext">Please enter your password to continue</p>
+          <input 
+            type="password" 
+            id="passwordInput" 
+            placeholder="Enter your password..." 
+            autocomplete="off"
+          />
+          <button onclick="checkPassword()">Unlock</button>
+          <p class="error" id="errorMessage"></p>
+        </div>
+      </div>
+
+      <!-- Main Content Section (hidden by default) -->
+      <div class="container hidden" id="mainContent">
+        <h2>🌐 Available Sites</h2>
+        <div id="siteButtons"></div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Disclaimer -->
+  <footer class="disclaimer">
+    ⚠️ Disclaimer: This site is currently unfinished. Features, styling, and content may change.
+  </footer>
+
+  <!-- Load JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
