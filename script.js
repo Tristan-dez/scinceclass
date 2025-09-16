@@ -1,4 +1,4 @@
-const correctPassword = "LeeithPlots93";
+const correctPassword = "MbappeHaveDih2123";
 
 const sites = [
   { name: "Gamesite69", url: "https://hammy-dotco.github.io/gamesite69/" },
